@@ -1,0 +1,28 @@
+#menu {
+    position: absolute;
+    top: 30;
+    left: 35;
+    z-index: 2;
+}
+input, button {
+    margin: 5;
+}
+canvas {
+    position: absolute;
+    top: 10;
+    left: 20;
+    z-index: 1;
+}
+.visible {
+    position: absolute;
+    display: block;
+    left: 35;
+    z-index: 2;
+    opacity: 0.75;
+    background-color: rgb(141, 207, 204);
+    border-radius: 10px;
+    width: 570px;
+}
+.invisible {
+    display: none;
+}
